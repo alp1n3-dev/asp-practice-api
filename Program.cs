@@ -1,21 +1,16 @@
 using Scalar.AspNetCore;
+using asp_practice_api.Startup;
+using asp_practice_api.Endpoints;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddOpenApi();
+//builder.Services.AddOpenApiServices(); // need this one to work
+builder.AddDependencies();
+//builder.Services.AddOpenApiServices();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-    app.MapScalarApiReference(options =>
-    {
-        options.Title = "The Sample API";
-        options.Theme = ScalarTheme.DeepSpace;
-        options.Layout = ScalarLayout.Modern;
-    });
-}
+app.UseOpenApi();
 
 app.UseHttpsRedirection();
 
