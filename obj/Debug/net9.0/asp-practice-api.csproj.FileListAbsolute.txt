@@ -33,3 +33,4 @@
 /Users/alp1n3/Documents/GitHub/ASP-Practice-API/asp-practice-api/obj/Debug/net9.0/asp-practice-api.genruntimeconfig.cache
 /Users/alp1n3/Documents/GitHub/ASP-Practice-API/asp-practice-api/obj/Debug/net9.0/ref/asp-practice-api.dll
 /Users/alp1n3/Documents/GitHub/ASP-Practice-API/asp-practice-api/obj/Debug/net9.0/asp-practice-api.sourcelink.json
+/Users/alp1n3/Documents/GitHub/ASP-Practice-API/asp-practice-api/bin/Debug/net9.0/Data/coursedata.json

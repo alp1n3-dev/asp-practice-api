@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("asp-practice-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfea9bdd002aad2356c52b715a6503dd1e3e8935")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ca926c351ae6d8dca6445d60be9a505439519e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("asp-practice-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("asp-practice-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
